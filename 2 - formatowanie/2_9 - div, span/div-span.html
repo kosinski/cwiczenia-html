@@ -1,0 +1,42 @@
+<!-- 
+1. Dodać element div zawierający nagłówek i dwa paragrafy z dowoną zawartością
+2. Sprawdzić jak będzie wyglądał tekst znajdujący się w znaczniku span z klasą: success, warning, error.
+-->
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formatowanie dokumentu</title>
+    <style>
+        .success {
+            color: green;
+            font-family: Consolas;
+        }
+
+        .warning {
+            color: orange;
+            font-family: "Times New Roman";
+        }
+
+        .error {
+            color: red;
+            font-family: Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ćwiczenia z HTML5</h1>
+    <h2>Formatowanie zawartości strony</h2>
+    <p>W trakcie ćwiczeń poznamy jak używać podstawowych elementów języka HTML5 do formatowania strony WWW.</p>
+    <h3>Div i span</h3>
+
+    <p>Znaczników div i span są używane do tworzenia struktury dokumentu oraz grupowania elementów o podobnym znaczeniu. Same w sobie nie nie mają znaczenia semantycznego jak np. paragraf czy obrazek. Zazwyczaj wykorzystuje się atrybuty <i>class</i> oraz <i>id</i> aby używając stylów CSS konkretnie je sformatować.</p>
+    <p><code>span</code> używany jest do elementów liniowych - zazwyczaj pojedyńczych słów lub zdań w paragrafie aby zmienić ich kolor czy czcionkę.</p>
+    <p><code>div</code> używany jest do grupowania elementów blokowych i/lub liniowych w jedną całość. Np. obrazek i podpis, tabela i podpis, paragrafy w opisie produktu dotyczące jednej cechy, elementy tworzące koszyk.</p>
+    <p>Przed HTML5 tag <code>div</code> był wykorzystywany do tworzenia szablonu strony www. W HTML5 wprowadzono tagi dedykowane dla sekcji - nawigacja, stopka itp. które powinny być w tych przypadkach wykorzystywane zamiast tagów div.</p>
+
+</body>
+
+</html>
